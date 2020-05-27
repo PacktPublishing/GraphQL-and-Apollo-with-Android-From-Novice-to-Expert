@@ -1,0 +1,9 @@
+NOTE on Apollo Codegen!
+For some reason, the only way I was able to successfully create and download the json Schema was by using the following command ( as opposed to the one they show us in the Apollo Android documentation):
+
+sudo apollo schema:download --endpoint=https://gql-android-course.herokuapp.com/graphql schema.json
+Remember: "sudo" is optional and also make sure to swap the endpoint to your endpoint.  This is crucial.
+
+
+
+Thank you!
